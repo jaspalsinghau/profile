@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles — Jaspal Singh</title>
+  <meta name="description" content="Writing on technology leadership, building capability, operating model design and delivery governance — by Jaspal Singh." />
+  <meta name="author" content="Jaspal Singh" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Jaspal Singh — home">
+        <span class="brand__mark">JS</span>
+        <span class="brand__name">Jaspal Singh</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Profile</a>
+        <a href="articles.html" aria-current="page">Articles</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn--primary nav__cta" href="contact.html">Get in touch</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HEADER ===================== -->
+    <section class="hero" style="padding:110px 0 80px;">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <span class="eyebrow" style="color:var(--accent);">Writing</span>
+        <h1 style="font-size:clamp(2.2rem,5.5vw,3.6rem);">Notes on leadership, <span class="accent">capability &amp; delivery.</span></h1>
+        <p class="hero__summary">
+          Occasional writing on building high-performing technology functions, operating model
+          design, portfolio governance and turning strategy into delivered outcomes.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== ARTICLE LIST =====================
+         To add a new article:
+           1. Copy  articles/_template.html  →  articles/your-slug.html
+           2. Fill in the title, date and body.
+           3. Add a new <article class="article-card"> block below
+              (newest first) pointing to it.
+    -->
+    <section class="section">
+      <div class="container">
+        <div class="article-grid">
+
+          <article class="article-card reveal">
+            <div class="article-card__meta">Leadership · 6 min read</div>
+            <h3>Scaling a fintech technology team from 100 to 250+</h3>
+            <p>What actually changes when a technology function more than doubles across three regions — and the operating model, leadership layer and governance that have to grow with it.</p>
+            <a class="article-card__more" href="articles/scaling-a-fintech-team.html">
+              Read article <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <!-- More articles will appear here as they're published. -->
+
+        </div>
+
+        <!-- Shown only as a hint while the library is small; remove when full. -->
+        <p class="section-lead reveal" data-delay="1" style="margin-top:40px;">
+          More articles are on the way. In the meantime, connect on
+          <a href="https://www.linkedin.com/in/jaspalsinghau" target="_blank" rel="noopener" style="color:var(--accent-deep);font-weight:600;">LinkedIn ↗</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">Jaspal<span>.</span> Singh</div>
+        <nav class="footer__links" aria-label="Footer">
+          <a href="index.html">Profile</a>
+          <a href="articles.html">Articles</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://www.linkedin.com/in/jaspalsinghau" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Jaspal Singh · Melbourne, VIC</span>
+        <span class="built">Built by Jaspal Singh with <b>Claude Code</b> · GitHub Actions · GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

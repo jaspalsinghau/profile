@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ▼▼ EDIT THESE FOR EACH NEW ARTICLE ▼▼ -->
+  <title>Article title — Jaspal Singh</title>
+  <meta name="description" content="One-sentence summary of the article for search engines and link previews." />
+  <!-- ▲▲ -------------------------------- ▲▲ -->
+
+  <meta name="author" content="Jaspal Singh" />
+  <!-- Paths use ../ because article pages live in /articles/ -->
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../index.html" aria-label="Jaspal Singh — home">
+        <span class="brand__mark">JS</span>
+        <span class="brand__name">Jaspal Singh</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="../index.html">Profile</a>
+        <a href="../articles.html" aria-current="page">Articles</a>
+        <a href="../contact.html">Contact</a>
+        <a class="btn btn--primary nav__cta" href="../contact.html">Get in touch</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== ARTICLE HEADER ===================== -->
+    <header class="article-hero">
+      <div class="container">
+        <a class="back-link" href="../articles.html" style="color:var(--grey-300);">← All articles</a>
+        <!-- ▼ EDIT ▼ -->
+        <span class="eyebrow">Category · X min read</span>
+        <h1>Article title goes here</h1>
+        <div class="article-hero__meta">By Jaspal Singh · Month YYYY</div>
+        <!-- ▲ EDIT ▲ -->
+      </div>
+    </header>
+
+    <!-- ===================== ARTICLE BODY ===================== -->
+    <!-- Write the article using these elements: <h2> <h3> <p> <ul><li> <blockquote> <a> -->
+    <article class="prose">
+      <p>Opening paragraph. Replace everything in this article body with your content.</p>
+
+      <h2>A section heading</h2>
+      <p>Body text.</p>
+      <ul>
+        <li>A bullet point.</li>
+        <li>Another bullet point.</li>
+      </ul>
+
+      <blockquote>A pull quote, if you want one.</blockquote>
+
+      <h2>Another section</h2>
+      <p>More body text, with a <a href="../contact.html">link</a> where useful.</p>
+
+      <p style="margin-top:48px;"><a class="btn btn--ghost" href="../articles.html">← Back to all articles</a></p>
+    </article>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">Jaspal<span>.</span> Singh</div>
+        <nav class="footer__links" aria-label="Footer">
+          <a href="../index.html">Profile</a>
+          <a href="../articles.html">Articles</a>
+          <a href="../contact.html">Contact</a>
+          <a href="https://www.linkedin.com/in/jaspalsinghau" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Jaspal Singh · Melbourne, VIC</span>
+        <span class="built">Built by Jaspal Singh with <b>Claude Code</b> · GitHub Actions · GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
