@@ -482,7 +482,7 @@ h1, h2, h3, h4 { line-height: 1.15; margin: 0; font-weight: 700; letter-spacing:
   }
   .nav__links.is-open { max-height: 340px; }
   .nav__links a { width: 100%; padding: 15px 24px; border-bottom: 1px solid var(--grey-100); }
-  .nav__links .nav__cta { margin: 14px 24px; }
+  .nav__links .nav__cta { width: calc(100% - 48px); margin: 14px 24px; }
 }
 @media (max-width: 540px) {
   .cards { grid-template-columns: 1fr; }
