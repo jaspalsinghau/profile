@@ -79,6 +79,7 @@ h1, h2, h3, h4 { line-height: 1.15; margin: 0; font-weight: 700; letter-spacing:
   max-width: 60ch;
   margin: 0 0 40px;
 }
+#about .section-lead { max-width: none; }
 .section--dark .section-lead { color: var(--grey-300); }
 
 /* ----- Buttons ------------------------------------------------------------- */
